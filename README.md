@@ -50,9 +50,9 @@ step 3:
 ```
 [Download](https://linuxhint.com/install-cmake-on-ubuntu) the `cmake` link
 
+    -install docker-compose 
 ```bash
 step 4:
-    install docker-compose 
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
