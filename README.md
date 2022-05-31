@@ -20,9 +20,9 @@ cd api
 2. [Download](https://pelandobr.atlassian.net/wiki/spaces/EN/pages/2654319/API) the development `.env` file for this repository.
 
 3. Create `pelando` network, can ignore errors:
+    
     -Install docker /perform step 1 from the link
-
-[Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
+    [Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
 
 ```bash
 later:
@@ -46,17 +46,19 @@ step 2:
      install nodejs/version needs to be above 16
     -curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
-[Download](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt) the  `nodejs` link
+ [Download](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt) the  `nodejs` link
+
 
 ```bash
 step 3:
+
     -sudo snap install cmake --classic
 ```
 [Download](https://linuxhint.com/install-cmake-on-ubuntu) the `cmake` link
 
 
-    # install docker-compose 
-[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t) the `docker-compose` link
+    -install docker-compose 
+  [Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t) the `docker-compose` link
 ```bash
 step 4:
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -74,7 +76,7 @@ or (detached)
 make up-silent
 ```
 
-4. After the startup is complete, open a browser and visit [http://localhost:3201/status](http://localhost:3201/status).
+5. After the startup is complete, open a browser and visit [http://localhost:3201/status](http://localhost:3201/status).
 
 ## Updating dependencies
 
