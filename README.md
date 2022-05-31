@@ -20,7 +20,7 @@ cd api
 2. [Download](https://pelandobr.atlassian.net/wiki/spaces/EN/pages/2654319/API) the development `.env` file for this repository.
 
 3. Create `pelando` network, can ignore errors:
-    # Install docker /perform step 1 from the link
+    -Install docker /perform step 1 from the link
 
 [Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
 
@@ -32,8 +32,12 @@ later:
 4. Build and start the application:
 ```bash
 step 1:
-   - sudo apt install buil-essential 
-    -install yarn
+        sudo apt install buil-essential 
+```
+```bash
+    later:
+            install yarn
+            sudo apt install yarn
 ```
 [Download](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/) the `yarn` link
 
