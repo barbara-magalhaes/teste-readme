@@ -20,14 +20,13 @@ cd api
 2. [Download](https://pelandobr.atlassian.net/wiki/spaces/EN/pages/2654319/API) the development `.env` file for this repository.
 
 3. Create `pelando` network, can ignore errors:
-```bash
-Install docker /perform step 1 from the link
-```
+    - Install docker /perform step 1 from the link
+
 [Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
 
 ```bash
 later:
-sudo docker network create pelando
+        sudo docker network create pelando
 ```
 
 4. Build and start the application:
@@ -40,7 +39,7 @@ step 1:
 
 ```bash
 step 2:
-    install nodejs/version needs to be above 16
+     install nodejs/version needs to be above 16
     -curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
 [Download](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt) the  `nodejs` link
@@ -49,7 +48,7 @@ step 2:
 step 3:
     -sudo snap install cmake --classic
 ```
-[Download](https://linuxhint.com/install-cmake-on-ubuntu) the r `cmake` link
+[Download](https://linuxhint.com/install-cmake-on-ubuntu) the `cmake` link
 
 ```bash
 step 4:
@@ -57,11 +56,11 @@ step 4:
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t)the  `docker-compose` link
+[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t)the `docker-compose` link
 
 ```bash
 later :
-    -sudo make up
+        -sudo make up
 
 ```
 
