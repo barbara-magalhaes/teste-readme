@@ -23,7 +23,7 @@ cd api
 ```bash
 Install docker /perform step 1 from the link
 ```
-[Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt)
+[Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
 
 ```bash
 later:
@@ -36,20 +36,20 @@ step 1:
    - sudo apt install buil-essential 
     -install yarn
 ```
-[Download](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/)
+[Download](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/) the `yarn` link
 
 ```bash
 step 2:
     install nodejs/version needs to be above 16
     -curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
-[Download](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt)
+[Download](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt) the  `nodejs` link
 
 ```bash
 step 3:
     -sudo snap install cmake --classic
 ```
-[Download](https://linuxhint.com/install-cmake-on-ubuntu)
+[Download](https://linuxhint.com/install-cmake-on-ubuntu) the r `cmake` link
 
 ```bash
 step 4:
@@ -57,7 +57,7 @@ step 4:
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t)
+[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t)the  `docker-compose` link
 
 ```bash
 later :
