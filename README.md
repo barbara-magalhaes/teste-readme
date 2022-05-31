@@ -62,7 +62,7 @@ step 4:
     #install docker-compose 
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ``` 
-[Dowload](www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt) the `docker-compose` link
+[Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt) the `docker-compose` link
 
 
 ```bash
