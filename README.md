@@ -20,7 +20,7 @@ cd api
 2. [Download](https://pelandobr.atlassian.net/wiki/spaces/EN/pages/2654319/API) the development `.env` file for this repository.
 
 3. Create `pelando` network, can ignore errors:
-    - Install docker /perform step 1 from the link
+    # Install docker /perform step 1 from the link
 
 [Download](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt) the `docker` link 
 
@@ -50,16 +50,16 @@ step 3:
 ```
 [Download](https://linuxhint.com/install-cmake-on-ubuntu) the `cmake` link
 
-    -install docker-compose 
+
+    # install docker-compose 
+[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t) the `docker-compose` link
 ```bash
 step 4:
     -sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-[Dowload](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-t)the `docker-compose` link
-
 ```bash
-later :
+later:
         -sudo make up
 
 ```
