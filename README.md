@@ -7,12 +7,19 @@
 ## Prerequisite
 
 Start at [link confluence]
-Install docker [https://pelandobr.atlassian.net/wiki/spaces/EN/pages/2654319/API]
-Install package buil-essential [https://linuxhint.com/install-build-essential-ubuntu/]
-Install yarn [https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/] 
-install nodejs [https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt]
-Install package cmake [https://linuxhint.com/install-cmake-on-ubuntu] 
-Install docker-compose[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt]
+Install 'docker' (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt)
+
+Install 'build-essential' [https://linuxhint.com/install-build-essential-ubuntu/]
+
+Install 'yarn' [https://linuxize.com/post/how-to-install-yarn-on-ubuntu-20-04/] 
+
+Install 'nodejs' [https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04-pt]
+
+Install 'cmake' [https://linuxhint.com/install-cmake-on-ubuntu] 
+
+Install 'docker-compose' [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt]
+
+
 
 ## Usage
 
